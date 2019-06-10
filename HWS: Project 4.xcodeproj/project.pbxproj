@@ -8,20 +8,22 @@
 
 /* Begin PBXBuildFile section */
 		04220A5222AEE9D2005C7E59 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04220A5122AEE9D2005C7E59 /* AppDelegate.swift */; };
-		04220A5422AEE9D2005C7E59 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04220A5322AEE9D2005C7E59 /* ViewController.swift */; };
+		04220A5422AEE9D2005C7E59 /* WebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04220A5322AEE9D2005C7E59 /* WebViewController.swift */; };
 		04220A5722AEE9D2005C7E59 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04220A5522AEE9D2005C7E59 /* Main.storyboard */; };
 		04220A5922AEE9D3005C7E59 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04220A5822AEE9D3005C7E59 /* Assets.xcassets */; };
 		04220A5C22AEE9D3005C7E59 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04220A5A22AEE9D3005C7E59 /* LaunchScreen.storyboard */; };
+		04AD830D22AF00400001362A /* WebSelectTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04AD830C22AF00400001362A /* WebSelectTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		04220A4E22AEE9D2005C7E59 /* HWS: Project 4.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "HWS: Project 4.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		04220A5122AEE9D2005C7E59 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		04220A5322AEE9D2005C7E59 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		04220A5322AEE9D2005C7E59 /* WebViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebViewController.swift; sourceTree = "<group>"; };
 		04220A5622AEE9D2005C7E59 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		04220A5822AEE9D3005C7E59 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		04220A5B22AEE9D3005C7E59 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		04220A5D22AEE9D3005C7E59 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		04AD830C22AF00400001362A /* WebSelectTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebSelectTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,7 +57,8 @@
 			isa = PBXGroup;
 			children = (
 				04220A5122AEE9D2005C7E59 /* AppDelegate.swift */,
-				04220A5322AEE9D2005C7E59 /* ViewController.swift */,
+				04220A5322AEE9D2005C7E59 /* WebViewController.swift */,
+				04AD830C22AF00400001362A /* WebSelectTableViewController.swift */,
 				04220A5522AEE9D2005C7E59 /* Main.storyboard */,
 				04220A5822AEE9D3005C7E59 /* Assets.xcassets */,
 				04220A5A22AEE9D3005C7E59 /* LaunchScreen.storyboard */,
@@ -135,8 +138,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				04220A5422AEE9D2005C7E59 /* ViewController.swift in Sources */,
+				04220A5422AEE9D2005C7E59 /* WebViewController.swift in Sources */,
 				04220A5222AEE9D2005C7E59 /* AppDelegate.swift in Sources */,
+				04AD830D22AF00400001362A /* WebSelectTableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
